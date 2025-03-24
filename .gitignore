@@ -1,3 +1,4 @@
 # environment:
 .obsidian
 .venv
+.DS_Store
