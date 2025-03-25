@@ -1,7 +1,7 @@
 [project]
 name = "llm-from-scratch"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.0.0"
+description = "Building a GPT-style LLM from scratch. Based on the book by Sebastian Raschka (2025)."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
