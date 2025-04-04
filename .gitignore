@@ -5,6 +5,12 @@
 
 # large folders:
 gpt2
+sms_spam_collection
 
 # cache files:
 __pycache__
+
+# files:
+*.csv
+*.zip
+*.pth
