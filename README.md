@@ -9,7 +9,7 @@ This repository contains my notes, code, and implementation of a GPT-like LLM, b
 ```
 uv venv --python 3.11
 source .venv/bin/activate
-uv pip install -r requirements
+uv pip install -r requirements.txt
 ```
 
 Free GPU compute from [Lightning AI](https://lightning.ai/) was used to perform the instruction fine-tune using the `355M` GPT-2 model from chapter 7.
