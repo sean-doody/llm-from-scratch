@@ -4,11 +4,26 @@ This repository contains my notes, code, and implementation of a GPT-like LLM, b
 
 ## Environment
 
-[UV](https://github.com/astral-sh) is used for the virutal environment:
+[uv](https://github.com/astral-sh) is used for virtual environment management:
 
 ```
-uv venv
-uv sync
+uv venv --python 3.11
+source .venv/bin/activate
+uv pip install -r requirements
+```
+
+Free GPU compute from [Lightning AI](https://lightning.ai/) was used to perform the instruction fine-tune using the `355M` GPT-2 model from chapter 7.
+
+To get Ollama up and running for the Ch. 7 evaluation:
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+I also had to change the port on my Lightning AI VM:
+
+```bash
+OLLAMA_HOST=127.0.0.1:8080 ollama serve
 ```
 
 ## The Book
